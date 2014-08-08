@@ -3,8 +3,5 @@ Package.describe({
 });
 
 Package.on_use(function (api, where) {
-  if(api.export) {
-    api.export('pinterestBadge');
-  }
-  api.add_files('widget/pinit_main.js', ['client']);
+  api.add_files('widgets/pinit_main.js', ['client']);
 });
